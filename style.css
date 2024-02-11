@@ -1,0 +1,21 @@
+html {
+    color-scheme: dark;
+}
+
+body {
+    background-color: #1b1e20;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        color-scheme: light;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+    }
+}
